@@ -8,7 +8,7 @@ body {
 }
 
 .cormorant-garamond {
-  font-family: 'Cormorant Garamond', serif !important;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 body::-webkit-scrollbar {

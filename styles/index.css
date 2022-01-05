@@ -10,3 +10,7 @@ body {
 .cormorant-garamond {
   font-family: 'Cormorant Garamond', serif !important;
 }
+
+body::-webkit-scrollbar {
+  width: 0 !important;
+}

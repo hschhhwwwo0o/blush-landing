@@ -1,2 +1,2 @@
-# blush-landing
+# Blush
 Landing site for Blush

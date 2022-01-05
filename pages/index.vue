@@ -3,6 +3,7 @@
     <main>
       <the-title />
       <the-download />
+      <the-preview />
     </main>
   </the-layout>
 </template>
@@ -11,6 +12,7 @@
 import TheLayout from '@/components/TheLayout.vue'
 import TheTitle from '@/components/TheTitle.vue'
 import TheDownload from '@/components/TheDownload.vue'
+import ThePreview from '@/components/ThePreview.vue'
 
 export default {
   name: 'IndexPage',
@@ -18,6 +20,7 @@ export default {
     TheLayout,
     TheTitle,
     TheDownload,
+    ThePreview,
   },
 }
 </script>

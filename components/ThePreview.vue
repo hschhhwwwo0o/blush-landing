@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-40">
+  <div class="mt-20 lg:mt-40">
     <img
       src="~/assets/preview.jpg"
       alt="Blush Music"

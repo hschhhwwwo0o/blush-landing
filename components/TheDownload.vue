@@ -8,10 +8,18 @@
       >Download for Linux</span
     >
     <div v-if="isOpenDownload" class="flex flex-row gap-6 text-lg">
-      <a download href="/assets/blush_4.2.2_amd64.deb" class="underline">
+      <a
+        download
+        href="https://drive.google.com/file/d/1SKmHN2ybdK2zPhmOD0VwfYmBQgjoe_ER/view?usp=sharing"
+        class="underline"
+      >
         .deb (x64)
       </a>
-      <a download href="/assets/blush-4.2.2-1.x86_64.rpm" class="underline">
+      <a
+        download
+        href="https://drive.google.com/file/d/1PGfE5NUpYaGm4lLX0OB6K0_VZ4cSALM1/view?usp=sharing"
+        class="underline"
+      >
         .rpm (x64)
       </a>
     </div>

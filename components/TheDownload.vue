@@ -8,8 +8,12 @@
       >Download for Linux</span
     >
     <div v-if="isOpenDownload" class="flex flex-row gap-6 text-lg">
-      <a href="" class="underline"> .deb (x64) </a>
-      <a href="" class="underline"> .rpm (x64) </a>
+      <a download href="/assets/blush_4.2.2_amd64.deb" class="underline">
+        .deb (x64)
+      </a>
+      <a download href="/assets/blush-4.2.2-1.x86_64.rpm" class="underline">
+        .rpm (x64)
+      </a>
     </div>
   </div>
 </template>

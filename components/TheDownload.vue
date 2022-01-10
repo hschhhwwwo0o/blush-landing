@@ -1,13 +1,16 @@
 <template>
-  <div class="pt-6 lg:pt-12 flex flex-row gap-10">
+  <div class="pt-6 lg:pt-12 flex flex-row gap-4 lg:gap-10">
     <span
-      :class="`underline text-lg cursor-pointer transition-opacity duration-500 ${
+      :class="`underline text-sm lg:text-lg cursor-pointer transition-opacity duration-500 ${
         isOpenDownload ? 'opacity-70' : 'opacity-100'
       }`"
       @click="changeLinksDownloadingVisible"
       >Download for Linux</span
     >
-    <div v-if="isOpenDownload" class="flex flex-row gap-6 text-lg">
+    <div
+      v-if="isOpenDownload"
+      class="flex flex-row gap-3 lg:gap-6 text-sm lg:text-lg"
+    >
       <span
         class="underline cursor-pointer"
         @click="
